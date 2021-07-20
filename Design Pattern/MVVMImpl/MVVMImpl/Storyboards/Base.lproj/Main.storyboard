@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Update Profile View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="UpdateProfileViewController" customModule="MVVMImpl" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7T5-H3-3ZQ">
+                                <rect key="frame" x="75" y="74" width="264" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="rcB-vP-P68"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gcx-80-8ag" customClass="BindingTextField" customModule="MVVMImpl" customModuleProvider="target">
+                                <rect key="frame" x="20" y="134" width="374" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="b9o-gb-ml0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mobile Phone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ntK-S3-BTb" customClass="BindingTextField" customModule="MVVMImpl" customModuleProvider="target">
+                                <rect key="frame" x="20" y="194" width="374" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="h7H-Pc-FVi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nnJ-tG-lFZ" customClass="BindingTextField" customModule="MVVMImpl" customModuleProvider="target">
+                                <rect key="frame" x="20" y="254" width="374" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="r2i-wc-Y5f"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Age" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IJr-6j-yge" customClass="BindingTextField" customModule="MVVMImpl" customModuleProvider="target">
+                                <rect key="frame" x="20" y="314" width="374" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ikx-Ig-6Cc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="UPt-Su-w0C" customClass="BindingSegmentedControl" customModule="MVVMImpl" customModuleProvider="target">
+                                <rect key="frame" x="117" y="394" width="180" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="4c8-Ey-2oL"/>
+                                    <constraint firstAttribute="height" constant="50" id="5kK-kW-bxL"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Male"/>
+                                    <segment title="Female"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jb-2H-jyX">
+                                <rect key="frame" x="132" y="469" width="150" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="2P6-Km-hHR"/>
+                                    <constraint firstAttribute="width" constant="150" id="v97-YA-dcn"/>
+                                </constraints>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="saveButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hfk-ZK-Wbe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gcx-80-8ag" secondAttribute="trailing" constant="20" id="0rQ-ML-HO6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IJr-6j-yge" secondAttribute="trailing" constant="20" id="6Zn-le-E4T"/>
+                            <constraint firstItem="UPt-Su-w0C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8aq-by-wQj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7T5-H3-3ZQ" secondAttribute="trailing" constant="75" id="ELl-Qp-hvl"/>
+                            <constraint firstItem="7T5-H3-3ZQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="Fco-24-fHg"/>
+                            <constraint firstItem="7T5-H3-3ZQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="Fmb-Pb-HCM"/>
+                            <constraint firstItem="IJr-6j-yge" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Jm9-pG-jOa"/>
+                            <constraint firstItem="Gcx-80-8ag" firstAttribute="top" secondItem="7T5-H3-3ZQ" secondAttribute="bottom" constant="20" id="LnE-JX-1Mc"/>
+                            <constraint firstItem="IJr-6j-yge" firstAttribute="top" secondItem="nnJ-tG-lFZ" secondAttribute="bottom" constant="20" id="RJj-HT-uTJ"/>
+                            <constraint firstItem="3jb-2H-jyX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sp8-FJ-ijW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nnJ-tG-lFZ" secondAttribute="trailing" constant="20" id="TPj-UX-BEM"/>
+                            <constraint firstItem="nnJ-tG-lFZ" firstAttribute="top" secondItem="ntK-S3-BTb" secondAttribute="bottom" constant="20" id="Vx5-F7-rQd"/>
+                            <constraint firstItem="3jb-2H-jyX" firstAttribute="top" secondItem="UPt-Su-w0C" secondAttribute="bottom" constant="25" id="XUK-08-DDO"/>
+                            <constraint firstItem="ntK-S3-BTb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="brY-Q0-TYg"/>
+                            <constraint firstItem="Gcx-80-8ag" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="c2A-KU-fed"/>
+                            <constraint firstItem="UPt-Su-w0C" firstAttribute="top" secondItem="IJr-6j-yge" secondAttribute="bottom" constant="40" id="doy-q9-PpX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ntK-S3-BTb" secondAttribute="trailing" constant="20" id="hn7-of-PEq"/>
+                            <constraint firstItem="ntK-S3-BTb" firstAttribute="top" secondItem="Gcx-80-8ag" secondAttribute="bottom" constant="20" id="iZl-Po-nLW"/>
+                            <constraint firstItem="nnJ-tG-lFZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="rg5-uL-Qy9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ageTextField" destination="IJr-6j-yge" id="9dD-Sy-768"/>
+                        <outlet property="emailTextField" destination="nnJ-tG-lFZ" id="4Lt-xe-cdo"/>
+                        <outlet property="genderSegmentedController" destination="UPt-Su-w0C" id="XXe-jq-Pun"/>
+                        <outlet property="mobileTextField" destination="ntK-S3-BTb" id="6hL-I2-22Y"/>
+                        <outlet property="nameTextField" destination="Gcx-80-8ag" id="0jL-yf-wpP"/>
+                        <outlet property="saveButton" destination="3jb-2H-jyX" id="QW6-28-37S"/>
+                        <outlet property="titleLabel" destination="7T5-H3-3ZQ" id="NNy-om-0Na"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="30" y="74"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
