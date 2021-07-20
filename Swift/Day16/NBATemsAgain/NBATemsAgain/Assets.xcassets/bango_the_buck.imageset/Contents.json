@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "thumb2-bango-the-buck-4k-mascot-milwaukee-bucks-basketball.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
