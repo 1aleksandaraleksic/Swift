@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ProjectTwo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background2" translatesAutoresizingMaskIntoConstraints="NO" id="h0A-li-3zX">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS App Templates" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XT4-fM-US5" userLabel="title">
+                                <rect key="frame" x="40" y="64" width="334" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="XLa-9X-6jI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchPad-Rocket-icon" translatesAutoresizingMaskIntoConstraints="NO" id="l9G-bp-f0f">
+                                <rect key="frame" x="40" y="135.5" width="334" height="386.5"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="e-mail" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xvc-Nz-Za9" userLabel="firstInput">
+                                <rect key="frame" x="60" y="542" width="294" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="KyX-GR-Qnf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="password" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4iX-aS-ucY" userLabel="secondInput">
+                                <rect key="frame" x="60" y="632" width="294" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="UTE-p9-MJO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3v-0j-AgZ">
+                                <rect key="frame" x="80" y="712" width="254" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="KLF-yv-2QH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Sing In">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an account? Sign Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YE5-ul-HLT" userLabel="footer">
+                                <rect key="frame" x="20" y="802" width="374" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="97a-LE-LS9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XT4-fM-US5" secondAttribute="trailing" constant="40" id="0SW-2u-IoD"/>
+                            <constraint firstItem="4iX-aS-ucY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="4Ns-wF-K2v"/>
+                            <constraint firstItem="h0A-li-3zX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="6aR-Jq-dq9"/>
+                            <constraint firstItem="Xvc-Nz-Za9" firstAttribute="top" secondItem="l9G-bp-f0f" secondAttribute="bottom" constant="20" id="H7d-qQ-LwF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xvc-Nz-Za9" secondAttribute="trailing" constant="60" id="IVV-fO-Wmr"/>
+                            <constraint firstItem="h0A-li-3zX" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="NOI-Dz-tpd"/>
+                            <constraint firstItem="4iX-aS-ucY" firstAttribute="top" secondItem="Xvc-Nz-Za9" secondAttribute="bottom" constant="50" id="Nrd-C1-bXo"/>
+                            <constraint firstItem="YE5-ul-HLT" firstAttribute="top" secondItem="x3v-0j-AgZ" secondAttribute="bottom" constant="40" id="Qsi-gR-drg"/>
+                            <constraint firstItem="XT4-fM-US5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="WIk-bJ-GyF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="l9G-bp-f0f" secondAttribute="trailing" constant="40" id="WIq-2k-OQT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4iX-aS-ucY" secondAttribute="trailing" constant="60" id="dr1-hw-653"/>
+                            <constraint firstItem="x3v-0j-AgZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="e44-ON-k95"/>
+                            <constraint firstItem="l9G-bp-f0f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="gQU-wR-CZD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YE5-ul-HLT" secondAttribute="bottom" constant="20" id="gR6-f3-oiy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="x3v-0j-AgZ" secondAttribute="trailing" constant="80" id="gYH-ap-rSz"/>
+                            <constraint firstItem="Xvc-Nz-Za9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="h6e-ch-jC1"/>
+                            <constraint firstItem="YE5-ul-HLT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hMw-go-JjJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YE5-ul-HLT" secondAttribute="trailing" constant="20" id="mWT-Jb-RyF"/>
+                            <constraint firstItem="x3v-0j-AgZ" firstAttribute="top" secondItem="4iX-aS-ucY" secondAttribute="bottom" constant="40" id="nwe-Oh-Z7S"/>
+                            <constraint firstItem="h0A-li-3zX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pK2-gG-u5t"/>
+                            <constraint firstItem="h0A-li-3zX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="shu-Lj-ncH"/>
+                            <constraint firstItem="l9G-bp-f0f" firstAttribute="top" secondItem="XT4-fM-US5" secondAttribute="bottom" constant="31.5" id="u3C-9p-nIf"/>
+                            <constraint firstItem="XT4-fM-US5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="zSs-a1-pe2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="x3v-0j-AgZ" id="ae5-k7-edi"/>
+                        <outlet property="inputEmail" destination="Xvc-Nz-Za9" id="W2x-8U-Cp2"/>
+                        <outlet property="inputPassword" destination="4iX-aS-ucY" id="BPy-wH-5r3"/>
+                        <outlet property="logoImage" destination="l9G-bp-f0f" id="Uys-Xt-gK3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="72.991071428571431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchPad-Rocket-icon" width="512" height="512"/>
+        <image name="background2" width="2560" height="1600"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
