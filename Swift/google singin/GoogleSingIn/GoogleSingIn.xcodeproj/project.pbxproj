@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B29BE97B2683670600F21058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29BE97A2683670600F21058 /* AppDelegate.swift */; };
+		B29BE97D2683670600F21058 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29BE97C2683670600F21058 /* SceneDelegate.swift */; };
+		B29BE97F2683670600F21058 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29BE97E2683670600F21058 /* ViewController.swift */; };
+		B29BE9822683670600F21058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29BE9802683670600F21058 /* Main.storyboard */; };
+		B29BE9842683670800F21058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29BE9832683670800F21058 /* Assets.xcassets */; };
+		B29BE9872683670800F21058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29BE9852683670800F21058 /* LaunchScreen.storyboard */; };
+		E3654BDB2F97FF16C9FB5062 /* Pods_GoogleSingIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46FBEA3D86650BF7338B05E0 /* Pods_GoogleSingIn.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46FBEA3D86650BF7338B05E0 /* Pods_GoogleSingIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleSingIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8068899A180BFBDDBA20A215 /* Pods-GoogleSingIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSingIn.release.xcconfig"; path = "Target Support Files/Pods-GoogleSingIn/Pods-GoogleSingIn.release.xcconfig"; sourceTree = "<group>"; };
+		B29BE9772683670600F21058 /* GoogleSingIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleSingIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29BE97A2683670600F21058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B29BE97C2683670600F21058 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B29BE97E2683670600F21058 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B29BE9812683670600F21058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B29BE9832683670800F21058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B29BE9862683670800F21058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B29BE9882683670800F21058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D646B27A64D705412491A9E4 /* Pods-GoogleSingIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSingIn.debug.xcconfig"; path = "Target Support Files/Pods-GoogleSingIn/Pods-GoogleSingIn.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B29BE9742683670600F21058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3654BDB2F97FF16C9FB5062 /* Pods_GoogleSingIn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049DAA6184C45C6002E4817D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46FBEA3D86650BF7338B05E0 /* Pods_GoogleSingIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B29BE96E2683670600F21058 = {
+			isa = PBXGroup;
+			children = (
+				B29BE9792683670600F21058 /* GoogleSingIn */,
+				B29BE9782683670600F21058 /* Products */,
+				E942103DAD3721F866AE07AC /* Pods */,
+				049DAA6184C45C6002E4817D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B29BE9782683670600F21058 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B29BE9772683670600F21058 /* GoogleSingIn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B29BE9792683670600F21058 /* GoogleSingIn */ = {
+			isa = PBXGroup;
+			children = (
+				B29BE97A2683670600F21058 /* AppDelegate.swift */,
+				B29BE97C2683670600F21058 /* SceneDelegate.swift */,
+				B29BE97E2683670600F21058 /* ViewController.swift */,
+				B29BE9802683670600F21058 /* Main.storyboard */,
+				B29BE9832683670800F21058 /* Assets.xcassets */,
+				B29BE9852683670800F21058 /* LaunchScreen.storyboard */,
+				B29BE9882683670800F21058 /* Info.plist */,
+			);
+			path = GoogleSingIn;
+			sourceTree = "<group>";
+		};
+		E942103DAD3721F866AE07AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D646B27A64D705412491A9E4 /* Pods-GoogleSingIn.debug.xcconfig */,
+				8068899A180BFBDDBA20A215 /* Pods-GoogleSingIn.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B29BE9762683670600F21058 /* GoogleSingIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B29BE98B2683670800F21058 /* Build configuration list for PBXNativeTarget "GoogleSingIn" */;
+			buildPhases = (
+				E6BEA24BFCAEF8D4C36F1B38 /* [CP] Check Pods Manifest.lock */,
+				B29BE9732683670600F21058 /* Sources */,
+				B29BE9742683670600F21058 /* Frameworks */,
+				B29BE9752683670600F21058 /* Resources */,
+				6D7DF7F096EC77CA297AE9A1 /* [CP] Embed Pods Frameworks */,
+				425B9FDF11A9242302AEDFE5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleSingIn;
+			productName = GoogleSingIn;
+			productReference = B29BE9772683670600F21058 /* GoogleSingIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B29BE96F2683670600F21058 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B29BE9762683670600F21058 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B29BE9722683670600F21058 /* Build configuration list for PBXProject "GoogleSingIn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B29BE96E2683670600F21058;
+			productRefGroup = B29BE9782683670600F21058 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B29BE9762683670600F21058 /* GoogleSingIn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B29BE9752683670600F21058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29BE9872683670800F21058 /* LaunchScreen.storyboard in Resources */,
+				B29BE9842683670800F21058 /* Assets.xcassets in Resources */,
+				B29BE9822683670600F21058 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		425B9FDF11A9242302AEDFE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleSingIn/Pods-GoogleSingIn-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleSingIn/Pods-GoogleSingIn-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleSingIn/Pods-GoogleSingIn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D7DF7F096EC77CA297AE9A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleSingIn/Pods-GoogleSingIn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleSingIn/Pods-GoogleSingIn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleSingIn/Pods-GoogleSingIn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6BEA24BFCAEF8D4C36F1B38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleSingIn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B29BE9732683670600F21058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29BE97F2683670600F21058 /* ViewController.swift in Sources */,
+				B29BE97B2683670600F21058 /* AppDelegate.swift in Sources */,
+				B29BE97D2683670600F21058 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B29BE9802683670600F21058 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B29BE9812683670600F21058 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B29BE9852683670800F21058 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B29BE9862683670800F21058 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B29BE9892683670800F21058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B29BE98A2683670800F21058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B29BE98C2683670800F21058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D646B27A64D705412491A9E4 /* Pods-GoogleSingIn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				INFOPLIST_FILE = GoogleSingIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.engineering.GoogleSingIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B29BE98D2683670800F21058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8068899A180BFBDDBA20A215 /* Pods-GoogleSingIn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleSingIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.engineering.GoogleSingIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B29BE9722683670600F21058 /* Build configuration list for PBXProject "GoogleSingIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29BE9892683670800F21058 /* Debug */,
+				B29BE98A2683670800F21058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B29BE98B2683670800F21058 /* Build configuration list for PBXNativeTarget "GoogleSingIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29BE98C2683670800F21058 /* Debug */,
+				B29BE98D2683670800F21058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B29BE96F2683670600F21058 /* Project object */;
+}
