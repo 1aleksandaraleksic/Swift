@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LayoutPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gxN-8p-AJ4">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nature.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mf7-G5-mYK">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="318"/>
+                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUc-lJ-RLd">
+                                        <rect key="frame" x="160" y="518" width="94" height="70"/>
+                                        <state key="normal" title="Button" image="Apple-logo.png"/>
+                                        <connections>
+                                            <action selector="swapImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b06-1P-Kr3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDs-xf-0mg">
+                                        <rect key="frame" x="170" y="668" width="74" height="30"/>
+                                        <state key="normal" title="full screen"/>
+                                        <connections>
+                                            <action selector="fullScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h5j-Yk-K3O"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="mf7-G5-mYK" secondAttribute="trailing" id="B3I-D4-HaN"/>
+                                    <constraint firstItem="mf7-G5-mYK" firstAttribute="top" secondItem="gxN-8p-AJ4" secondAttribute="top" id="Gua-dT-adZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="VUc-lJ-RLd" secondAttribute="bottom" constant="230" id="Hgm-FE-eJ0"/>
+                                    <constraint firstItem="VUc-lJ-RLd" firstAttribute="leading" secondItem="gxN-8p-AJ4" secondAttribute="leading" constant="160" id="NJo-TF-fSc"/>
+                                    <constraint firstAttribute="trailing" secondItem="VUc-lJ-RLd" secondAttribute="trailing" constant="160" id="NiZ-iy-KGZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="sDs-xf-0mg" secondAttribute="bottom" constant="120" id="Rn4-cR-OqF"/>
+                                    <constraint firstItem="VUc-lJ-RLd" firstAttribute="top" secondItem="mf7-G5-mYK" secondAttribute="bottom" constant="200" id="d9u-if-hKh"/>
+                                    <constraint firstAttribute="trailing" secondItem="sDs-xf-0mg" secondAttribute="trailing" constant="170" id="eWr-da-Jv1"/>
+                                    <constraint firstItem="sDs-xf-0mg" firstAttribute="leading" secondItem="gxN-8p-AJ4" secondAttribute="leading" constant="170" id="kmC-vc-aLz"/>
+                                    <constraint firstAttribute="bottom" secondItem="mf7-G5-mYK" secondAttribute="bottom" constant="500" id="s15-rR-fXD"/>
+                                    <constraint firstItem="mf7-G5-mYK" firstAttribute="leading" secondItem="gxN-8p-AJ4" secondAttribute="leading" id="xdn-pv-MxH"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gxN-8p-AJ4" secondAttribute="trailing" id="GI7-Va-ZWT"/>
+                            <constraint firstItem="gxN-8p-AJ4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GSb-ec-bf4"/>
+                            <constraint firstItem="gxN-8p-AJ4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="P3d-c4-Jfs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gxN-8p-AJ4" secondAttribute="bottom" id="QLE-L3-tqk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageVIew" destination="mf7-G5-mYK" id="Ljm-Zc-YHJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="77.678571428571431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Apple-logo.png" width="669" height="669"/>
+        <image name="nature.jpg" width="192" height="115.68000030517578"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
