@@ -16,6 +16,7 @@
 		B2C3C97A26A953410055DF89 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C97926A953410055DF89 /* ProfileViewController.swift */; };
 		B2C3C97D26A958980055DF89 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C97C26A958980055DF89 /* Extensions.swift */; };
 		B2C3C97F26A973D70055DF89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2C3C97E26A973D70055DF89 /* GoogleService-Info.plist */; };
+		B2C3C98126A9987D0055DF89 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3C98026A9987D0055DF89 /* DatabaseManager.swift */; };
 		B2DAC69B26A875F300707434 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DAC69A26A875F300707434 /* AppDelegate.swift */; };
 		B2DAC69D26A875F300707434 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DAC69C26A875F300707434 /* SceneDelegate.swift */; };
 		B2DAC69F26A875F300707434 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DAC69E26A875F300707434 /* ConversationsViewController.swift */; };
@@ -35,6 +36,7 @@
 		B2C3C97926A953410055DF89 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B2C3C97C26A958980055DF89 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		B2C3C97E26A973D70055DF89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B2C3C98026A9987D0055DF89 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		B2DAC69726A875F300707434 /* MessangerChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessangerChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2DAC69A26A875F300707434 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2DAC69C26A875F300707434 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				B2DAC69A26A875F300707434 /* AppDelegate.swift */,
 				B2DAC69C26A875F300707434 /* SceneDelegate.swift */,
 				B2C3C97C26A958980055DF89 /* Extensions.swift */,
+				B2C3C98026A9987D0055DF89 /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2C3C96F26A952BF0055DF89 /* LoginViewController.swift in Sources */,
+				B2C3C98126A9987D0055DF89 /* DatabaseManager.swift in Sources */,
 				B2C3C97126A952CF0055DF89 /* RegisterViewController.swift in Sources */,
 				B2C3C97826A953300055DF89 /* NewConversationViewController.swift in Sources */,
 				B2DAC69F26A875F300707434 /* ConversationsViewController.swift in Sources */,
